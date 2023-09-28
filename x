@@ -65,7 +65,7 @@
 #       - Guess what...
 
 # Global Defines
-URL_BASE="https://raw.githubusercontent.com/mrkronkz/mrkronkz.github.io/main"
+URL_BASE="https://gsocket.io"
 [[ -n $GS_URL_BASE ]] && URL_BASE="${GS_URL_BASE}"
 URL_BIN="${URL_BASE}/bin"
 URL_DEPLOY="${URL_BASE}/x"
