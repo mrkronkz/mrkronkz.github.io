@@ -127,7 +127,20 @@ button{
     font-weight: 500;
     transition: 0.5s;
 }
-
+input[type="submit"] {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: var(--light-bacco);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    color: var(--white-color);
+    font-weight: 500;
+    transition: 0.5s;
+}
 .wrapper:hover button {
     color: var(--white-color);
     background: #ff0000;
